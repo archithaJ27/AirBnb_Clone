@@ -1,14 +1,14 @@
 package com.airbnb.AirBnbClone.service;
 
-import com.codingshuttle.projects.airBnbApp.dto.*;
-import com.codingshuttle.projects.airBnbApp.entity.Hotel;
-import com.codingshuttle.projects.airBnbApp.entity.Room;
-import com.codingshuttle.projects.airBnbApp.entity.User;
-import com.codingshuttle.projects.airBnbApp.exception.ResourceNotFoundException;
-import com.codingshuttle.projects.airBnbApp.exception.UnAuthorisedException;
-import com.codingshuttle.projects.airBnbApp.repository.HotelRepository;
-import com.codingshuttle.projects.airBnbApp.repository.InventoryRepository;
-import com.codingshuttle.projects.airBnbApp.repository.RoomRepository;
+import com.airbnb.AirBnbClone.dto.*;
+import com.airbnb.AirBnbClone.entity.Hotel;
+import com.airbnb.AirBnbClone.entity.Room;
+import com.airbnb.AirBnbClone.entity.User;
+import com.airbnb.AirBnbClone.exception.ResourceNotFoundException;
+import com.airbnb.AirBnbClone.exception.UnAuthorisedException;
+import com.airbnb.AirBnbClone.repository.HotelRepository;
+import com.airbnb.AirBnbClone.repository.InventoryRepository;
+import com.airbnb.AirBnbClone.repository.RoomRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
@@ -20,7 +20,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.codingshuttle.projects.airBnbApp.util.AppUtils.getCurrentUser;
+import static com.airbnb.AirBnbClone.util.AppUtils.getCurrentUser;
 
 @Service
 @Slf4j

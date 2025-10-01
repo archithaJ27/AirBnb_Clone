@@ -6,7 +6,7 @@ import com.airbnb.AirBnbClone.dto.HotelReportDto;
 import com.airbnb.AirBnbClone.service.BookingService;
 import com.airbnb.AirBnbClone.service.HotelService;
 import io.swagger.v3.oas.annotations.Operation;
-import lombok.RequiredArgsConstructor;git init
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

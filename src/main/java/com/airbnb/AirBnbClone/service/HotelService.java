@@ -1,8 +1,8 @@
 package com.airbnb.AirBnbClone.service;
 
-import com.codingshuttle.projects.airBnbApp.dto.HotelDto;
-import com.codingshuttle.projects.airBnbApp.dto.HotelInfoDto;
-import com.codingshuttle.projects.airBnbApp.dto.HotelInfoRequestDto;
+import com.airbnb.AirBnbClone.dto.HotelDto;
+import com.airbnb.AirBnbClone.dto.HotelInfoDto;
+import com.airbnb.AirBnbClone.dto.HotelInfoRequestDto;
 
 import java.util.List;
 
