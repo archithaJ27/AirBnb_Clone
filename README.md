@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AirbnbClone Spring Boot Application</title>
 </head>
 <body>
 
@@ -85,7 +84,7 @@
 <h2>API Documentation</h2>
   <p>
     This project integrates <strong>SpringDoc OpenAPI-UI</strong>. Once the app runs, access the API docs at:<br/>
-    <a href="http://localhost:8080/api/v1/swagger-ui.html">http://localhost:8080/swagger-ui.html</a>
+    <a href="http://localhost:8080/api/v1/swagger-ui.html">http://localhost:8080/api/v1/swagger-ui.html</a>
   </p>
   <p>You can explore all endpoints, request/response schemas, and try API calls directly.</p>
 
