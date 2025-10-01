@@ -70,7 +70,7 @@
     <li>
       Run the application:<br/>
       <code>mvn spring-boot:run</code><br/>
-      Default server URL: <a href="http://localhost:8080">http://localhost:8080</a>
+      Default server URL: <a href="http://localhost:8080/api/v1">http://localhost:8080/api/v1</a>
     </li>
   </ol>
 
